@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --message-sender-bubble-color: @apply bg-blue-400;
+  }
+}
